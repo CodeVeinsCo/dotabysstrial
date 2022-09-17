@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
+
+:root,body,*{
+    font-family: 'IBM Plex Mono', monospace;
+}
+.codeGtLt{
+    color: rgb(192, 20, 94);
+    font-weight: 900;
+}
+#brand{
+    font-size: 37px;
+    color: whitesmoke;
+}
+#header{
+    padding-top: 9px;
+    color: whitesmoke;
+}
+#slogan{
+    padding: 11px;
+    font-size: 27px;
+    color: whitesmoke;
+}
+#text{
+    padding: 11px;
+    font-size: 21px;
+    color: whitesmoke;
+}
+.spaces{
+    display: inline-block;
+   padding: 11px 17px;
+   border: 0;
+   text-decoration: none;
+   border-radius: 15px;
+   background-color: rgba(255,255,255,0.1);
+   border: 1px solid rgba(255,255,255,0.1);
+   backdrop-filter: blur(30px);
+   color: rgba(255,255,255,0.8);
+   font-size: 14px;
+   letter-spacing: 2px;
+   cursor: pointer;
+   text-transform: uppercase;
+
+}
+.spacesLinks{
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+.spacesLinks:hover{
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+.spacesLinks:active{
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+body{
+    background-image: url(../Assets/background.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#container{
+    color: #fff;
+    margin: 40px auto;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 100%;
+    border-radius: 15px;
+    padding: 32px;
+    backdrop-filter: blur(10px);
+}
+#mainImage{
+    background-image: url(../Assets/abyssShape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: padding-box;
+    height: 500px;
+    border-radius: 15px;
+    font-size: 37px;
+    color: whitesmoke;
+    box-shadow: rgba(31, 31, 31, 0.529) 0px 3px 13px;
+}
